@@ -1,0 +1,19 @@
+.pingouin{
+    background-image: url('./image/pingouin.png');
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.feuilles{
+    background: scroll top;
+    background-image: url(./image/feuilles.png);
+   
+}
+.violet{
+    color: darkviolet;
+}
+.italic{
+    font-style: italic;
+}
+p{
+    font-size: 30px;
+}
