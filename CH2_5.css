@@ -1,0 +1,31 @@
+h1:hover,h2:hover,
+ul li:hover,
+h3:hover {
+    color: green;
+    cursor: pointer;
+}
+
+h1:active,h2:active,
+ul li:active,
+h3:active {
+    text-decoration: underline;
+}
+
+p:hover {
+    font-style: italic;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: text;
+}
+
+a:hover,
+a:visited,
+a:active,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
