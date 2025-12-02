@@ -15,7 +15,7 @@
     font-style: italic;
 }
 p{
-    font-size: 40px;
+    font-size: 20px;
     margin-left: 20px;
 }
 .bordure{
@@ -24,17 +24,21 @@ p{
     border-left: auto;
     border-right:auto;
     background-color: rgb(226, 96, 96);
-    background-image: url('./image/pingouin.png');
     background-attachment: fixed;
     background-size: cover;
 }
 .bordureint{
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
     border-top: auto;
     border-bottom: auto;
     border-left: auto;
     border-right: auto;
     background-color: red;
-    opacity: 0.4;
+    opacity: 90%;
+    background-image: url('./image/pingouin.png');
 }
 .espace{
     margin-left: 20px;
